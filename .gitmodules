@@ -1,0 +1,6 @@
+[submodule "third_party/Synapse-Templates"]
+	path = third_party/Synapse-Templates
+	url = https://github.com/CreativeInquiry/Synapse-Templates
+[submodule "third_party/ofxSynapse"]
+	path = third_party/ofxSynapse
+	url = https://github.com/pierrep/ofxSynapse
