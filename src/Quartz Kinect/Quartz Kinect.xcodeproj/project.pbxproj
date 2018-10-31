@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D678AFCC1398ABB600FA020E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D678AFCB1398ABB600FA020E /* Cocoa.framework */; };
+		D678AFCE1398ABB600FA020E /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D678AFCD1398ABB600FA020E /* Quartz.framework */; };
+		D678AFDA1398ABB600FA020E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D678AFD81398ABB600FA020E /* InfoPlist.strings */; };
+		D678AFDE1398ABB600FA020E /* Quartz_KinectPlugin.mm in Sources */ = {isa = PBXBuildFile; fileRef = D678AFDD1398ABB600FA020E /* Quartz_KinectPlugin.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D678AFC81398ABB600FA020E /* Quartz Kinect.plugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Quartz Kinect.plugin"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D678AFCB1398ABB600FA020E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		D678AFCD1398ABB600FA020E /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
+		D678AFD01398ABB600FA020E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		D678AFD11398ABB600FA020E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		D678AFD21398ABB600FA020E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D678AFD71398ABB600FA020E /* Quartz Kinect-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Quartz Kinect-Info.plist"; sourceTree = "<group>"; };
+		D678AFD91398ABB600FA020E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D678AFDB1398ABB600FA020E /* Quartz Kinect-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Quartz Kinect-Prefix.pch"; sourceTree = "<group>"; };
+		D678AFDC1398ABB600FA020E /* Quartz_KinectPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Quartz_KinectPlugin.h; sourceTree = "<group>"; };
+		D678AFDD1398ABB600FA020E /* Quartz_KinectPlugin.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = Quartz_KinectPlugin.mm; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D678AFC41398ABB600FA020E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D678AFCC1398ABB600FA020E /* Cocoa.framework in Frameworks */,
+				D678AFCE1398ABB600FA020E /* Quartz.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D678AFBC1398ABB600FA020E = {
+			isa = PBXGroup;
+			children = (
+				D678AFD51398ABB600FA020E /* Quartz Kinect */,
+				D678AFCA1398ABB600FA020E /* Frameworks */,
+				D678AFC91398ABB600FA020E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D678AFC91398ABB600FA020E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D678AFC81398ABB600FA020E /* Quartz Kinect.plugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D678AFCA1398ABB600FA020E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D678AFCB1398ABB600FA020E /* Cocoa.framework */,
+				D678AFCD1398ABB600FA020E /* Quartz.framework */,
+				D678AFCF1398ABB600FA020E /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D678AFCF1398ABB600FA020E /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D678AFD01398ABB600FA020E /* AppKit.framework */,
+				D678AFD11398ABB600FA020E /* CoreData.framework */,
+				D678AFD21398ABB600FA020E /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		D678AFD51398ABB600FA020E /* Quartz Kinect */ = {
+			isa = PBXGroup;
+			children = (
+				D678AFDC1398ABB600FA020E /* Quartz_KinectPlugin.h */,
+				D678AFDD1398ABB600FA020E /* Quartz_KinectPlugin.mm */,
+				D678AFD61398ABB600FA020E /* Supporting Files */,
+			);
+			path = "Quartz Kinect";
+			sourceTree = "<group>";
+		};
+		D678AFD61398ABB600FA020E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D678AFD71398ABB600FA020E /* Quartz Kinect-Info.plist */,
+				D678AFD81398ABB600FA020E /* InfoPlist.strings */,
+				D678AFDB1398ABB600FA020E /* Quartz Kinect-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D678AFC71398ABB600FA020E /* Quartz Kinect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D678AFE11398ABB600FA020E /* Build configuration list for PBXNativeTarget "Quartz Kinect" */;
+			buildPhases = (
+				D678AFC31398ABB600FA020E /* Sources */,
+				D678AFC41398ABB600FA020E /* Frameworks */,
+				D678AFC51398ABB600FA020E /* Resources */,
+				D678AFC61398ABB600FA020E /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Quartz Kinect";
+			productName = "Quartz Kinect";
+			productReference = D678AFC81398ABB600FA020E /* Quartz Kinect.plugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D678AFBE1398ABB600FA020E /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = D678AFC11398ABB600FA020E /* Build configuration list for PBXProject "Quartz Kinect" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D678AFBC1398ABB600FA020E;
+			productRefGroup = D678AFC91398ABB600FA020E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D678AFC71398ABB600FA020E /* Quartz Kinect */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D678AFC51398ABB600FA020E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D678AFDA1398ABB600FA020E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D678AFC61398ABB600FA020E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# This shell script simply copies the built plug-in to \"~/Library/Graphics/Quartz Composer Plug-Ins\" and overrides any previous version at that location\n\nmkdir -p \"$USER_LIBRARY_DIR/Graphics/Quartz Composer Plug-Ins\"\nrm -rf \"$USER_LIBRARY_DIR/Graphics/Quartz Composer Plug-Ins/Quartz Kinect.plugin\"\ncp -rf \"$BUILT_PRODUCTS_DIR/Quartz Kinect.plugin\" \"$USER_LIBRARY_DIR/Graphics/Quartz Composer Plug-Ins/\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D678AFC31398ABB600FA020E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D678AFDE1398ABB600FA020E /* Quartz_KinectPlugin.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D678AFD81398ABB600FA020E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D678AFD91398ABB600FA020E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D678AFDF1398ABB600FA020E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D678AFE01398ABB600FA020E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D678AFE21398ABB600FA020E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Quartz Kinect/Quartz Kinect-Prefix.pch";
+				INFOPLIST_FILE = "Quartz Kinect/Quartz Kinect-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Graphics/Quartz Composer Plug-Ins";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = plugin;
+			};
+			name = Debug;
+		};
+		D678AFE31398ABB600FA020E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Quartz Kinect/Quartz Kinect-Prefix.pch";
+				INFOPLIST_FILE = "Quartz Kinect/Quartz Kinect-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Graphics/Quartz Composer Plug-Ins";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = plugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D678AFC11398ABB600FA020E /* Build configuration list for PBXProject "Quartz Kinect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D678AFDF1398ABB600FA020E /* Debug */,
+				D678AFE01398ABB600FA020E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D678AFE11398ABB600FA020E /* Build configuration list for PBXNativeTarget "Quartz Kinect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D678AFE21398ABB600FA020E /* Debug */,
+				D678AFE31398ABB600FA020E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D678AFBE1398ABB600FA020E /* Project object */;
+}
